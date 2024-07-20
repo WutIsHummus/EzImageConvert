@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Ez Image Convert",
+  "version": "1.0",
+  "action": {},
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "scripting",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  }
+}
